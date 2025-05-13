@@ -4,10 +4,6 @@
 
 - [WorkplayHub-Vue-TypeScript](#WorkplayHub-Vue-TypeScript)
   - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [:mount_fuji: The Challenge](#mount_fuji-the-challenge)
-    - [:camera: Screenshot](#camera-screenshot)
-    - [:link: Live Demo](#link-live-demo)
   - [My process](#my-process)
     - [:wrench: Built with](#wrench-built-with)
     - [:bulb: What I've learned](#bulb-what-ive-learned)
