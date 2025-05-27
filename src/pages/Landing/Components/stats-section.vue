@@ -16,8 +16,8 @@ const totalCategories = getAllCategories().length;
       <div
         class="flex h-full flex-col items-center justify-center text-center md:w-1/2 md:items-start md:text-start">
         <h3 class="text-4xl font-semibold uppercase text-k-black md:text-5xl">
-          Moje <br class="hidden xl:inline" />
-          <span class="text-k-main">Battlestation</span> w liczbach
+          My <br class="hidden xl:inline" />
+          <span class="text-k-main">Battlestation</span> in numbers
         </h3>
         <p class="mt-10 tracking-wide text-black opacity-70 md:mt-6">
           Discover my work and gaming station. From a powerful gaming PC with
@@ -37,7 +37,7 @@ const totalCategories = getAllCategories().length;
           </div>
           <div
             class="mt-2 text-lg font-semibold text-k-black opacity-70 uppercase tracking-wide">
-            Komponentów
+            Components
           </div>
         </div>
 
@@ -47,7 +47,7 @@ const totalCategories = getAllCategories().length;
           </div>
           <div
             class="mt-2 text-lg font-semibold text-k-black opacity-70 uppercase tracking-wide">
-            Kategorii
+            Categories
           </div>
         </div>
 
@@ -55,7 +55,7 @@ const totalCategories = getAllCategories().length;
           <div class="text-5xl font-bold text-k-main md:text-6xl">3</div>
           <div
             class="mt-2 text-lg font-semibold text-k-black opacity-70 uppercase tracking-wide">
-            Monitory
+            Monitors
           </div>
         </div>
 
