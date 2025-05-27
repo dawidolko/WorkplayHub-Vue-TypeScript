@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import facebookIcon from "/icons/facebook.svg";
-import twitterIcon from "/icons/twitter.svg";
 import instagramIcon from "/icons/instagram.svg";
 </script>
 
