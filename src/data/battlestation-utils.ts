@@ -57,7 +57,7 @@ export function getRandomComponents(
 ): Component[] {
   const allComponents: Component[] = [];
 
-  Object.entries(battlestationData).forEach(([category, components]) => {
+  Object.entries(battlestationData).forEach(([, components]) => {
     components.forEach((component) => {
       if (
         !(component.category === currentCategory && component.id === currentId)
@@ -81,11 +81,11 @@ export function getTotalComponents(): number {
 
 export function getCategoryDisplayName(category: string): string {
   const displayNames: { [key: string]: string } = {
-    pc: "Komputer PC",
+    pc: "Gaming PC",
     laptop: "Laptop",
-    monitors: "Monitory",
-    peripherals: "Peryferia",
-    audio: "Audio",
+    monitors: "Monitors",
+    peripherals: "Peripherals",
+    audio: "Audio Equipment",
     workspace: "Workspace",
   };
 

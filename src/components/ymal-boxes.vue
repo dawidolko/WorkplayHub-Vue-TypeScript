@@ -19,7 +19,7 @@ onBeforeMount(() => {
 <template>
   <section class="mt-20 flex w-4/5 max-w-6xl flex-col items-center lg:mt-32">
     <h2 class="mb-16 font-Manrope text-3xl font-bold uppercase text-black">
-      Może Cię też zainteresować
+      You may also be interested in
     </h2>
     <div
       class="flex flex-col items-center gap-12 lg:grid lg:grid-cols-3 lg:grid-rows-1 lg:gap-6">
@@ -39,7 +39,7 @@ onBeforeMount(() => {
         <ButtonSolid
           :to="`/${item.category}/${item.id}`"
           color="light"
-          content="zobacz komponent"
+          content="see component"
           size="small" />
       </div>
     </div>

@@ -6,17 +6,17 @@ const props = defineProps<{
 }>();
 
 const categoryDescriptions: { [key: string]: string } = {
-  pc: "Mój główny komputer to potężna maszyna do gier i pracy. Ryzen 7 5800X w połączeniu z RTX 3060Ti i 64GB RAM zapewnia płynność w każdym zadaniu.",
+  pc: "My main computer is a powerful machine for gaming and work. Ryzen 7 5800X combined with RTX 3060Ti and 64GB RAM ensures smooth performance in every task.",
   laptop:
-    "MacBook Pro M3 to mój wybór do pracy mobilnej. Chip Apple M3 i 18GB RAM gwarantują wydajność w profesjonalnych aplikacjach.",
+    "MacBook Pro M3 is my choice for mobile work. Apple M3 chip and 18GB RAM guarantee performance in professional applications.",
   monitors:
-    "Setup trzech monitorów zapewnia maksymalną produktywność. Dwa IIYAMA do pracy i HP 144Hz do gier.",
+    "Three-monitor setup ensures maximum productivity. Two IIYAMA for work and HP 144Hz for gaming.",
   peripherals:
-    "Peryferia Razer zapewniają precyzję i komfort podczas długich sesji gier i pracy.",
+    "Razer peripherals provide precision and comfort during long gaming and work sessions.",
   audio:
-    "Profesjonalny setup audio z głośnikami EDIFIER i mikrofonem Novox NC1 do streamingu i rozmów.",
+    "Professional audio setup with EDIFIER speakers and Novox NC1 microphone for streaming and calls.",
   workspace:
-    "Ergonomiczne stanowisko pracy z autorskim biurkiem i regulacją wysokości dla maksymalnego komfortu.",
+    "Ergonomic workstation with custom desk and height adjustment for maximum comfort.",
 };
 
 const categoryName = getCategoryDisplayName(props.category);
@@ -30,7 +30,7 @@ const description = categoryDescriptions[props.category] || "";
       class="flex h-full w-4/5 max-w-6xl flex-col items-center gap-10 md:w-11/12 lg:w-4/5">
       <div class="flex h-full flex-col items-center justify-center text-center">
         <h3 class="text-4xl font-semibold uppercase text-k-black md:text-5xl">
-          O kategorii <br class="hidden xl:inline" />
+          About <br class="hidden xl:inline" />
           <span class="text-k-main">{{ categoryName }}</span>
         </h3>
         <p class="mt-6 max-w-3xl tracking-wide text-black opacity-70 md:mt-8">
@@ -55,13 +55,13 @@ const description = categoryDescriptions[props.category] || "";
           to="/monitors"
           class="rounded bg-k-grey p-4 text-center transition hover:bg-k-main"
           :class="{ 'bg-k-main': category === 'monitors' }">
-          <span class="font-semibold">Monitory</span>
+          <span class="font-semibold">Monitors</span>
         </router-link>
         <router-link
           to="/peripherals"
           class="rounded bg-k-grey p-4 text-center transition hover:bg-k-main"
           :class="{ 'bg-k-main': category === 'peripherals' }">
-          <span class="font-semibold">Peryferia</span>
+          <span class="font-semibold">Peripherals</span>
         </router-link>
         <router-link
           to="/audio"

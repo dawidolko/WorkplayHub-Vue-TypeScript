@@ -27,7 +27,7 @@ import mxupImage from "/products/keyboards/up-nobg.webp";
           enthusiast.
         </p>
         <ButtonSolid
-          :to="{ name: 'keyboards', params: { id: 2 } }"
+          to="/components"
           content="see product"
           color="light"
           add="font-bold mb-20" />

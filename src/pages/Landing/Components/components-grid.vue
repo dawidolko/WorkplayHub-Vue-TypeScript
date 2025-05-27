@@ -4,9 +4,6 @@ import ButtonSolid from "../../../components/Buttons/button-solid.vue";
 import pcImage from "/display/cow-front-new.webp";
 import monitorsImage from "/products/deskmats/deskmat-kraken.webp";
 import peripheralsImage from "/display/keycaps.webp";
-import laptopImage from "/products/keyboards/mx-detail.webp";
-import audioImage from "/display/switch-array.webp";
-import furnitureImage from "/products/deskmats/mat1-show.webp";
 </script>
 
 <template>
@@ -20,7 +17,7 @@ import furnitureImage from "/products/deskmats/mat1-show.webp";
         <div
           class="group order-1 flex h-full w-full flex-col items-center justify-center md:order-none md:grid md:grid-cols-7">
           <router-link
-            :to="{ name: 'keyboards', params: { id: 1 } }"
+            to="/pc"
             href=""
             class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden md:col-span-4 md:px-10">
             <img
@@ -41,7 +38,7 @@ import furnitureImage from "/products/deskmats/mat1-show.webp";
               performance and style.
             </p>
             <ButtonSolid
-              :to="{ name: 'keyboards', params: { id: 1 } }"
+              to="/pc"
               content="VIEW SPECS"
               add="font-semibold hover:rotate-x-3"
               class="mb-10 self-center md:mb-0 md:self-start" />
@@ -51,12 +48,11 @@ import furnitureImage from "/products/deskmats/mat1-show.webp";
       <div
         class="order-3 flex w-full flex-col items-center justify-center gap-6 rounded-md bg-k-grey p-6 text-black md:order-none md:col-span-2 md:row-span-2 md:h-full md:items-start md:bg-white md:px-6">
         <h2 class="text-3xl font-semibold uppercase">Monitors</h2>
-        <ButtonEmpty
-          :to="{ name: 'deskmats', params: { id: 1 } }"
-          content="view setup" />
+        <!-- ZMIEŃ TĘ LINIĘ -->
+        <ButtonEmpty to="/monitors" content="view setup" />
       </div>
       <router-link
-        :to="{ name: 'deskmats', params: { id: 1 } }"
+        to="/monitors"
         class="order-2 flex h-64 flex-col items-center justify-center overflow-hidden rounded-md bg-k-grey text-black md:order-none md:col-span-4 md:row-span-2 md:block md:h-full">
         <img
           class="scale-150 object-cover grayscale duration-200"
@@ -70,7 +66,7 @@ import furnitureImage from "/products/deskmats/mat1-show.webp";
       <div
         class="order-5 col-span-3 row-span-2 flex w-full flex-col items-center justify-center gap-6 rounded-md bg-k-grey p-6 text-black md:order-none md:h-full md:items-start md:px-16">
         <h2 class="text-3xl font-semibold uppercase">Peripherals</h2>
-        <ButtonEmpty :to="{ path: 'keycaps' }" content="see all" />
+        <ButtonEmpty to="/peripherals" content="see all" />
       </div>
     </div>
   </section>

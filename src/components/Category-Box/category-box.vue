@@ -30,7 +30,7 @@ const categoryName = getCategoryDisplayName(props.category);
       </h2>
       <div
         class="mt-2 flex flex-row items-center gap-2 text-sm font-semibold uppercase text-black opacity-50">
-        <p>zobacz</p>
+        <p>See</p>
         <img :src="arrowIcon" alt="arrow icon" />
       </div>
     </div>

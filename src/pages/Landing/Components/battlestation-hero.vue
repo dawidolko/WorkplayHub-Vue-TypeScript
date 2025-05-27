@@ -27,7 +27,7 @@ import setupMainImage from "/products/keyboards/up-nobg.webp";
           professional workspace solutions.
         </p>
         <ButtonSolid
-          :to="{ name: 'keyboards', params: { id: 2 } }"
+          to="/components"
           content="explore setup"
           color="light"
           add="font-bold mb-20" />

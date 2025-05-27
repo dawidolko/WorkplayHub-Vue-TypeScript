@@ -15,7 +15,7 @@ import {
       class="my-10 flex w-4/5 max-w-6xl flex-col items-center justify-center lg:my-20">
       <h1
         class="text-4xl font-semibold uppercase tracking-wider text-white antialiased">
-        Wszystkie Komponenty
+        All Components
       </h1>
     </div>
   </header>
@@ -30,7 +30,7 @@ import {
           <router-link
             :to="`/${category}`"
             class="text-k-main font-semibold hover:underline">
-            Zobacz wszystkie
+            View all
           </router-link>
         </div>
 
@@ -50,7 +50,7 @@ import {
                 <span
                   v-if="component.type === 'main'"
                   class="px-2 py-1 bg-k-main text-xs font-semibold rounded">
-                  GŁÓWNY
+                  MAIN
                 </span>
                 <span class="text-xs text-k-black opacity-60 uppercase">
                   {{ getCategoryDisplayName(component.category) }}
@@ -72,7 +72,7 @@ import {
                 <router-link
                   :to="`/${component.category}`"
                   class="text-xs text-k-main font-semibold hover:underline">
-                  Zobacz więcej
+                  See more
                 </router-link>
               </div>
             </div>

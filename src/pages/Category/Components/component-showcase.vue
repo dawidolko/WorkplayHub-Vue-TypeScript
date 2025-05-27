@@ -28,7 +28,7 @@ onMounted(() => {
       <p
         v-if="props.item.type === 'main'"
         class="md:text-md text-sm font-light uppercase tracking-broad text-black">
-        główny komponent
+        main component
       </p>
       <h1
         class="mt-4 text-center text-4xl font-semibold uppercase text-black md:text-start md:text-5xl lg:text-6xl">
@@ -45,7 +45,7 @@ onMounted(() => {
 
       <div class="mb-6 w-full md:pr-20">
         <h3 class="mb-3 text-lg font-semibold text-black">
-          Kluczowe specyfikacje:
+          Key specifications:
         </h3>
         <ul class="space-y-1 text-sm text-black opacity-70">
           <li
@@ -56,7 +56,7 @@ onMounted(() => {
           <li
             v-if="props.item.specs.length > 4"
             class="text-k-main font-medium">
-            + {{ props.item.specs.length - 4 }} więcej...
+            + {{ props.item.specs.length - 4 }} more...
           </li>
         </ul>
       </div>
@@ -67,7 +67,7 @@ onMounted(() => {
           :to="`/${props.category}/${props.item.id}`"
           color="light"
           add="font-bold"
-          content="Zobacz szczegóły" />
+          content="See details" />
       </div>
     </div>
 

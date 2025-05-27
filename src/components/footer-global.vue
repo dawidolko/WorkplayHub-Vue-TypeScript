@@ -53,10 +53,10 @@ import instagramIcon from "/icons/instagram.svg";
         class="flex flex-col items-center justify-between md:flex-row md:items-start">
         <p
           class="mb-10 text-center tracking-wide opacity-70 md:mb-0 md:w-2/3 md:text-left">
-          Witaj w mojej prezentacji stanowiska pracy i gier! To kompleksowy
-          przegląd mojego setupu gaming/productivity z komponentami najwyższej
-          jakości. Od potężnego PC z RTX 3060Ti po profesjonalny setup audio -
-          każdy detal został starannie dobrany.
+          Welcome to my workstation and gaming presentation! This is a
+          comprehensive overview of my gaming/productivity setup with the
+          highest quality components. From a powerful PC with RTX 3060Ti to a
+          professional audio setup - every detail has been carefully selected.
         </p>
         <nav class="flex flex-row gap-4 md:self-end">
           <a class="transition duration-300 hover:-translate-y-0.5" href="">

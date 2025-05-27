@@ -17,7 +17,7 @@ const props = defineProps<{
       <p
         v-if="props.item.type === 'main'"
         class="lg:text-md text-sm uppercase tracking-broad text-black">
-        główny komponent
+        main component
       </p>
       <h1
         class="mt-4 text-center text-4xl font-semibold uppercase text-black lg:text-start lg:text-6xl">
@@ -32,7 +32,7 @@ const props = defineProps<{
       </p>
 
       <div class="mt-6 mb-6 w-full lg:pr-20">
-        <h3 class="mb-3 text-lg font-semibold text-black">Specyfikacje:</h3>
+        <h3 class="mb-3 text-lg font-semibold text-black">Specifications:</h3>
         <ul class="space-y-2 text-sm text-black opacity-70">
           <li
             v-for="(spec, index) in props.item.specs.slice(0, 5)"
@@ -46,7 +46,7 @@ const props = defineProps<{
         :to="`/${props.item.category}/${props.item.id}`"
         color="light"
         add="font-bold"
-        content="zobacz szczegóły" />
+        content="see details" />
     </div>
     <div
       class="order-first overflow-hidden rounded pb-10 lg:order-none lg:col-span-1 lg:col-start-1 lg:row-span-full lg:pb-0">

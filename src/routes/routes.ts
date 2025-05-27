@@ -12,10 +12,10 @@ const routes = [
       useSeoMeta({
         title: "BattleStation | Ultimate Gaming & Work Setup",
         description:
-          "Poznaj moje stanowisko pracy i gier. Ryzen 7 5800X, RTX 3060Ti, MacBook Pro M3 i wiele więcej.",
+          "Get to know my work and gaming station. Ryzen 7 5800X, RTX 3060Ti, MacBook Pro M3, and more.",
         ogTitle: "BattleStation | Ultimate Gaming & Work Setup",
         ogDescription:
-          "Poznaj moje stanowisko pracy i gier. Ryzen 7 5800X, RTX 3060Ti, MacBook Pro M3 i wiele więcej.",
+          "Get to know my work and gaming station. Ryzen 7 5800X, RTX 3060Ti, MacBook Pro M3, and more.",
         ogImage: "/products/setup/main-setup.webp",
       });
     },
@@ -26,12 +26,12 @@ const routes = [
     component: () => import("../pages/Setup/setup-page.vue"),
     beforeEnter: () => {
       useSeoMeta({
-        title: "Setup Overview | Moje Stanowisko",
+        title: "Setup Overview | My Workstation",
         description:
-          "Kompletny przegląd mojego stanowiska pracy i gier z szczegółowymi zdjęciami.",
-        ogTitle: "Setup Overview | Moje Stanowisko",
+          "Complete overview of my work and gaming station with detailed photos.",
+        ogTitle: "Setup Overview | My Workstation",
         ogDescription:
-          "Kompletny przegląd mojego stanowiska pracy i gier z szczegółowymi zdjęciami.",
+          "Complete overview of my work and gaming station with detailed photos.",
         ogImage: "/products/setup/main-setup.webp",
       });
     },
@@ -42,12 +42,12 @@ const routes = [
     component: () => import("../pages/Components/components-page.vue"),
     beforeEnter: () => {
       useSeoMeta({
-        title: "Components | Wszystkie Komponenty",
+        title: "Components | All Components",
         description:
-          "Szczegółowy przegląd wszystkich komponentów mojego battlestation - PC, laptop, peryferia, audio.",
-        ogTitle: "Components | Wszystkie Komponenty",
+          "Detailed overview of all my battlestation components - PC, laptop, peripherals, audio.",
+        ogTitle: "Components | All Components",
         ogDescription:
-          "Szczegółowy przegląd wszystkich komponentów mojego battlestation - PC, laptop, peryferia, audio.",
+          "Detailed overview of all my battlestation components - PC, laptop, peripherals, audio.",
         ogImage: "/products/components/components-grid.webp",
       });
     },
@@ -58,12 +58,12 @@ const routes = [
     component: () => import("../pages/Specs/specs-page.vue"),
     beforeEnter: () => {
       useSeoMeta({
-        title: "Specs | Pełne Specyfikacje",
+        title: "Specs | Full Specifications",
         description:
-          "Kompletne specyfikacje techniczne wszystkich komponentów w moim setupie.",
-        ogTitle: "Specs | Pełne Specyfikacje",
+          "Complete technical specifications of all components in my setup.",
+        ogTitle: "Specs | Full Specifications",
         ogDescription:
-          "Kompletne specyfikacje techniczne wszystkich komponentów w moim setupie.",
+          "Complete technical specifications of all components in my setup.",
         ogImage: "/products/specs/specs-overview.webp",
       });
     },
@@ -88,10 +88,10 @@ const routes = [
     component: () => import("../pages/404/404-page.vue"),
     beforeEnter: () => {
       useSeoMeta({
-        title: "404 | Strona nie znaleziona",
-        description: "Strona nie została znaleziona.",
-        ogTitle: "404 | Strona nie znaleziona",
-        ogDescription: "Strona nie została znaleziona.",
+        title: "404 | Page not found",
+        description: "Page not found.",
+        ogTitle: "404 | Page not found",
+        ogDescription: "Page not found.",
         ogImage: "/products/404.webp",
       });
     },
@@ -101,10 +101,10 @@ const routes = [
     component: () => import("../pages/404/404-page.vue"),
     beforeEnter: () => {
       useSeoMeta({
-        title: "404 | Strona nie znaleziona",
-        description: "Strona nie została znaleziona.",
-        ogTitle: "404 | Strona nie znaleziona",
-        ogDescription: "Strona nie została znaleziona.",
+        title: "404 | Page not found",
+        description: "Page not found.",
+        ogTitle: "404 | Page not found",
+        ogDescription: "Page not found.",
         ogImage: "/products/404.webp",
       });
     },

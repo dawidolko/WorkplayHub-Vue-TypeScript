@@ -20,13 +20,13 @@ const totalCategories = getAllCategories().length;
           <span class="text-k-main">Battlestation</span> w liczbach
         </h3>
         <p class="mt-10 tracking-wide text-black opacity-70 md:mt-6">
-          Poznaj moje stanowisko pracy i gier. Od potężnego PC gaming z RTX
-          3060Ti, przez MacBook Pro M3, aż po profesjonalny setup audio z
-          mikrofonem Novox NC1.
+          Discover my work and gaming station. From a powerful gaming PC with
+          RTX 3060Ti, through MacBook Pro M3, to a professional audio setup with
+          the Novox NC1 microphone.
           <br />
           <br />
-          Każdy komponent został starannie dobrany dla maksymalnej wydajności w
-          pracy i rozrywce.
+          Each component has been carefully selected for maximum efficiency in
+          work and play.
         </p>
       </div>
 
