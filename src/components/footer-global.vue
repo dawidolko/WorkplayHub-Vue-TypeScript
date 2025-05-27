@@ -59,21 +59,18 @@ import instagramIcon from "/icons/instagram.svg";
           professional audio setup - every detail has been carefully selected.
         </p>
         <nav class="flex flex-row gap-4 md:self-end">
-          <a class="transition duration-300 hover:-translate-y-0.5" href="">
+          <a
+            class="transition duration-300 hover:-translate-y-0.5"
+            href="https://www.facebook.com/olkodawid/">
             <img
               loading="lazy"
               class="aspect-square h-6"
               :src="facebookIcon"
               alt="Facebook" />
           </a>
-          <a class="transition duration-300 hover:-translate-y-0.5" href="">
-            <img
-              loading="lazy"
-              class="aspect-square h-6"
-              :src="twitterIcon"
-              alt="Twitter" />
-          </a>
-          <a class="transition duration-300 hover:-translate-y-0.5" href="">
+          <a
+            class="transition duration-300 hover:-translate-y-0.5"
+            href="https://www.instagram.com/dawid_olko/">
             <img
               loading="lazy"
               class="aspect-square h-6"
@@ -84,7 +81,7 @@ import instagramIcon from "/icons/instagram.svg";
       </div>
       <p
         class="mt-16 text-center text-sm font-semibold tracking-wide text-white opacity-60 md:text-start">
-        Copyright 2024. My BattleStation Showcase.
+        Copyright 2025. My BattleStation Showcase.
       </p>
     </div>
   </footer>

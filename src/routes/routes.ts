@@ -16,7 +16,7 @@ const routes = [
         ogTitle: "BattleStation | Ultimate Gaming & Work Setup",
         ogDescription:
           "Get to know my work and gaming station. Ryzen 7 5800X, RTX 3060Ti, MacBook Pro M3, and more.",
-        ogImage: "/products/setup/main-setup.webp",
+        ogImage: "/products/setup/main-setup.jpg",
       });
     },
   },
@@ -32,7 +32,7 @@ const routes = [
         ogTitle: "Setup Overview | My Workstation",
         ogDescription:
           "Complete overview of my work and gaming station with detailed photos.",
-        ogImage: "/products/setup/main-setup.webp",
+        ogImage: "/products/setup/main-setup.jpg",
       });
     },
   },

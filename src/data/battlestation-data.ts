@@ -21,11 +21,11 @@ export const battlestationData: BattlestationData = {
       ],
       description:
         "My main computer for work and gaming. Powerful machine with Ryzen 7 5800X and RTX 3060Ti.",
-      image: "/products/pc/main-pc.webp",
+      image: "/products/pc/main-pc.jpg",
       detailImages: [
-        "/products/pc/pc-inside.webp",
-        "/products/pc/pc-back.webp",
-        "/products/pc/pc-rgb.webp",
+        "/products/pc/pc-inside.png",
+        "/products/pc/pc-back.png",
+        "/products/pc/pc-rgb.png",
       ],
       type: "main",
     },
@@ -45,7 +45,7 @@ export const battlestationData: BattlestationData = {
       ],
       description:
         "Laptop for mobile work and projects. Perfect for programming and development.",
-      image: "/products/laptop/macbook.webp",
+      image: "/products/laptop/macbook.jpg",
       type: "main",
     },
   ],
@@ -63,7 +63,7 @@ export const battlestationData: BattlestationData = {
       ],
       description:
         "Two identical IIYAMA monitors as main setup for productivity.",
-      image: "/products/monitors/iiyama.webp",
+      image: "/products/monitors/iiyama.jpg",
       type: "main",
     },
     {
@@ -109,7 +109,7 @@ export const battlestationData: BattlestationData = {
         "Weight: Ultra-light",
       ],
       description: "Wireless gaming mouse from Razer.",
-      image: "/products/peripherals/mouse-razer.webp",
+      image: "/products/peripherals/mouse-razer.jpg",
       type: "main",
     },
     {
@@ -123,7 +123,7 @@ export const battlestationData: BattlestationData = {
         "Features: Multi-device",
       ],
       description: "Productivity mouse for laptop work.",
-      image: "/products/peripherals/mouse-logitech.webp",
+      image: "/products/peripherals/mouse-logitech.jpg",
       type: "secondary",
     },
     {
@@ -137,7 +137,7 @@ export const battlestationData: BattlestationData = {
         "Connection: 2.4GHz Wireless",
       ],
       description: "Wireless gaming headset.",
-      image: "/products/peripherals/headset.webp",
+      image: "/products/peripherals/headset.jpg",
       type: "main",
     },
     {
@@ -164,7 +164,7 @@ export const battlestationData: BattlestationData = {
         "Connectivity: Bluetooth, RCA, AUX",
       ],
       description: "Active EDIFIER speakers.",
-      image: "/products/audio/speakers.webp",
+      image: "/products/audio/speakers.jpg",
       type: "main",
     },
     {
@@ -174,7 +174,7 @@ export const battlestationData: BattlestationData = {
       model: "Novox NC1",
       specs: ["Type: USB Condenser Microphone", "Use: Streaming and calls"],
       description: "USB condenser microphone.",
-      image: "/products/audio/microphone.webp",
+      image: "/products/audio/microphone.jpg",
       type: "main",
     },
   ],
@@ -191,7 +191,7 @@ export const battlestationData: BattlestationData = {
         "Features: Electric height adjustment",
       ],
       description: "Custom desk with height adjustment.",
-      image: "/products/workspace/desk.webp",
+      image: "/products/workspace/desk1.webp",
       type: "main",
     },
     {
@@ -204,7 +204,7 @@ export const battlestationData: BattlestationData = {
         "Features: Full ergonomic support",
       ],
       description: "Ergonomic office chair.",
-      image: "/products/workspace/chair.webp",
+      image: "/products/workspace/chair1.png",
       type: "main",
     },
   ],

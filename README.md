@@ -53,12 +53,12 @@ I've implemented a complete showcase that allows visitors to navigate through di
 
 ### 🖼️ Screenshot
 
-![BattleStation Showcase](./public/images/battlestation-banner.jpg)
+![BattleStation Showcase](img/screen_page.png)
 
 ### 🔗 Links
 
-- Live Site URL: [BattleStation Showcase](https://your-domain.com)
-- GitHub Repository: [BattleStation-Vue-TypeScript](https://github.com/yourusername/battlestation-vue-typescript)
+- Live Site URL: [BattleStation Showcase](https://workplayhub.dawidolko.pl)
+- GitHub Repository: [WorkplayHub-Vue-TypeScript](https://github.com/dawidolko/WorkplayHub-Vue-TypeScript)
 
 ## 🖥️ My BattleStation Specs
 
@@ -289,8 +289,8 @@ Special thanks to the Vue.js community and hardware enthusiast communities for i
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/battlestation-vue-typescript.git
-cd battlestation-vue-typescript
+git clone https://github.com/dawidolko/WorkplayHub-Vue-TypeScript.git
+cd WorkplayHub-Vue-TypeScript
 
 # Install dependencies
 npm install

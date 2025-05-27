@@ -30,7 +30,11 @@ onBeforeMount(() => {
         <router-link
           :to="`/${item.category}/${item.id}`"
           class="overflow-hidden rounded">
-          <img class="object-center" :src="item.image" alt="" loading="lazy" />
+          <img
+            class="object-center filter grayscale transition duration-300 hover:grayscale-0 hover:scale-110"
+            :src="item.image"
+            alt=""
+            loading="lazy" />
         </router-link>
         <h3 class="text-center font-Manrope text-2xl font-semibold text-black">
           {{ item.name }} <br class="hidden lg:inline" />

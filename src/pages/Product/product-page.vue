@@ -25,14 +25,14 @@ let item = computed(() => {
           <img
             :src="item.image"
             :alt="item.name"
-            class="w-full h-full object-cover" />
+            class="w-full h-full object-cover filter grayscale transition duration-300 hover:grayscale-0 hover:scale-110" />
         </div>
         <div class="flex flex-col justify-center">
           <div class="mb-4">
             <span
               v-if="item.type === 'main'"
               class="px-3 py-1 bg-k-main text-sm font-semibold rounded mb-4 inline-block">
-              GŁÓWNY KOMPONENT
+              MAIN COMPONENT
             </span>
           </div>
           <h1 class="text-4xl font-bold text-k-black mb-2">{{ item.name }}</h1>
@@ -42,9 +42,7 @@ let item = computed(() => {
           <p class="text-k-black opacity-70 mb-6">{{ item.description }}</p>
 
           <div class="bg-k-light-grey p-6 rounded-lg">
-            <h3 class="text-xl font-semibold text-k-black mb-4">
-              Pełne specyfikacje:
-            </h3>
+            <h3 class="text-xl font-semibold text-k-black mb-4">Full Specs:</h3>
             <div class="grid gap-3">
               <div
                 v-for="(spec, index) in item.specs"
@@ -62,9 +60,7 @@ let item = computed(() => {
       <div
         v-if="item.detailImages && item.detailImages.length > 0"
         class="mb-16">
-        <h3 class="text-2xl font-bold text-k-black mb-6">
-          Szczegółowe zdjęcia
-        </h3>
+        <h3 class="text-2xl font-bold text-k-black mb-6">Detailed photos</h3>
         <div class="grid gap-4 md:grid-cols-3">
           <div
             v-for="(image, index) in item.detailImages"
@@ -73,7 +69,7 @@ let item = computed(() => {
             <img
               :src="image"
               :alt="`${item.name} detail ${index + 1}`"
-              class="w-full h-64 object-cover" />
+              class="w-full h-64 object-cover filter grayscale transition duration-300 hover:grayscale-0 hover:scale-110" />
           </div>
         </div>
       </div>

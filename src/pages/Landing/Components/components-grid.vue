@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import ButtonEmpty from "../../../components/Buttons/button-empty.vue";
 import ButtonSolid from "../../../components/Buttons/button-solid.vue";
-import pcImage from "/display/cow-front-new.webp";
-import monitorsImage from "/products/deskmats/deskmat-kraken.webp";
-import peripheralsImage from "/display/keycaps.webp";
+import pcImage from "/products/workspace/station1.webp";
+import monitorsImage from "/products/monitors/screen1.webp";
+import peripheralsImage from "/products/peripherals/keyboard1.jpg";
 </script>
 
 <template>
@@ -22,8 +22,8 @@ import peripheralsImage from "/display/keycaps.webp";
             class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden md:col-span-4 md:px-10">
             <img
               :src="pcImage"
-              alt=""
-              class="z-20 my-5 aspect-auto translate-x-3 translate-y-3 scale-110 md:my-0 md:translate-x-0 md:translate-y-0 md:scale-125 md:transition md:duration-700 md:group-hover:translate-x-6 md:group-hover:translate-y-6" />
+              alt="High-end gaming PC workstation"
+              class="z-20 my-5 aspect-auto translate-x-3 translate-y-3 scale-90 grayscale hover:grayscale-0 transition-all duration-700 md:my-0 md:translate-x-0 md:translate-y-0 md:scale-100 md:group-hover:translate-x-6 md:group-hover:translate-y-6" />
           </router-link>
           <div
             class="relative z-10 col-span-3 flex h-full w-full flex-col justify-center bg-k-main md:pl-4 md:pr-20 lg:pl-6 lg:pr-24">
@@ -48,20 +48,24 @@ import peripheralsImage from "/display/keycaps.webp";
       <div
         class="order-3 flex w-full flex-col items-center justify-center gap-6 rounded-md bg-k-grey p-6 text-black md:order-none md:col-span-2 md:row-span-2 md:h-full md:items-start md:bg-white md:px-6">
         <h2 class="text-3xl font-semibold uppercase">Monitors</h2>
-        <!-- ZMIEŃ TĘ LINIĘ -->
         <ButtonEmpty to="/monitors" content="view setup" />
       </div>
       <router-link
         to="/monitors"
         class="order-2 flex h-64 flex-col items-center justify-center overflow-hidden rounded-md bg-k-grey text-black md:order-none md:col-span-4 md:row-span-2 md:block md:h-full">
         <img
-          class="scale-150 object-cover grayscale duration-200"
+          class="scale-125 object-cover grayscale hover:grayscale-0 transition-all duration-500"
           :src="monitorsImage"
-          alt="" />
+          alt="Triple monitor gaming setup"
+          loading="lazy" />
       </router-link>
       <div
         class="order-4 col-span-3 row-span-2 overflow-hidden rounded-md bg-k-grey text-black md:order-none md:h-full">
-        <img class="scale-150 object-cover" :src="peripheralsImage" alt="" />
+        <img
+          class="scale-125 object-cover grayscale hover:grayscale-0 transition-all duration-500"
+          :src="peripheralsImage"
+          alt="Gaming peripherals and keycaps"
+          loading="lazy" />
       </div>
       <div
         class="order-5 col-span-3 row-span-2 flex w-full flex-col items-center justify-center gap-6 rounded-md bg-k-grey p-6 text-black md:order-none md:h-full md:items-start md:px-16">

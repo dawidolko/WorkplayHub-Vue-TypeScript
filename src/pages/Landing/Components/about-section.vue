@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import workspaceImage from "/display/keycaps.webp";
+import workspaceImage from "/products/peripherals/bolid3.jpg";
 </script>
 
 <template>
@@ -29,9 +29,9 @@ import workspaceImage from "/display/keycaps.webp";
         class="order-first aspect-square h-full w-full overflow-hidden rounded-md md:order-last md:aspect-auto">
         <img
           loading="lazy"
-          class="h-full w-full object-cover"
+          class="h-full w-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
           :src="workspaceImage"
-          alt=""
+          alt="Professional workspace setup with premium peripherals"
           srcset="" />
       </div>
     </div>

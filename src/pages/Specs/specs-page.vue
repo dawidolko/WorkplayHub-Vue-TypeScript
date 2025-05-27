@@ -6,7 +6,6 @@ import {
   getComponentsByCategory,
 } from "../../data/battlestation-utils";
 
-// English category names
 const getCategoryDisplayNameEnglish = (category: string): string => {
   const displayNames: { [key: string]: string } = {
     pc: "Gaming PC",
@@ -44,34 +43,40 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
           <div
             v-for="component in getComponentsByCategory(category)"
             :key="component.id"
-            class="border border-k-grey rounded-lg p-6">
-            <div class="flex items-start gap-6">
-              <div class="w-32 h-32 rounded-lg overflow-hidden flex-shrink-0">
+            class="border border-k-grey rounded-lg p-6 cursor-pointer group hover:border-k-main hover:shadow-xl transition-all duration-300">
+            <div class="flex flex-col sm:flex-row sm:items-start gap-6">
+              <div
+                class="w-full h-48 sm:w-32 sm:h-32 rounded-lg overflow-hidden sm:flex-shrink-0">
                 <img
                   :src="component.image"
                   :alt="component.name"
-                  class="w-full h-full object-cover" />
+                  class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl" />
               </div>
               <div class="flex-1">
                 <div class="flex items-center gap-3 mb-3">
-                  <h3 class="text-xl font-bold text-k-black">
+                  <h3
+                    class="text-xl font-bold text-k-black group-hover:text-k-main transition-colors duration-300">
                     {{ component.name }}
                   </h3>
                   <span
                     v-if="component.type === 'main'"
-                    class="px-3 py-1 bg-k-main text-sm font-semibold rounded">
+                    class="px-3 py-1 bg-k-main text-sm font-semibold rounded group-hover:bg-k-black group-hover:text-k-main transition-colors duration-300">
                     MAIN
                   </span>
                 </div>
-                <p class="text-lg text-k-black opacity-80 mb-3">
+                <p
+                  class="text-lg text-k-black opacity-80 mb-3 group-hover:opacity-100 transition-opacity duration-300">
                   {{ component.model }}
                 </p>
-                <p class="text-k-black opacity-60 mb-4">
+                <p
+                  class="text-k-black opacity-60 mb-4 group-hover:opacity-80 transition-opacity duration-300">
                   {{ component.description }}
                 </p>
 
-                <div class="bg-k-light-grey p-4 rounded-lg">
-                  <h4 class="font-semibold text-k-black mb-3">
+                <div
+                  class="bg-k-light-grey p-4 rounded-lg group-hover:bg-k-grey transition-colors duration-300">
+                  <h4
+                    class="font-semibold text-k-black mb-3 group-hover:text-k-main transition-colors duration-300">
                     Detailed specifications:
                   </h4>
                   <div class="grid gap-2 md:grid-cols-2">
@@ -80,8 +85,11 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
                       :key="index"
                       class="flex items-center text-sm">
                       <span
-                        class="w-2 h-2 bg-k-main rounded-full mr-3 flex-shrink-0"></span>
-                      <span class="text-k-black">{{ spec }}</span>
+                        class="w-2 h-2 bg-k-main rounded-full mr-3 flex-shrink-0 group-hover:bg-k-black transition-colors duration-300"></span>
+                      <span
+                        class="text-k-black group-hover:opacity-90 transition-opacity duration-300"
+                        >{{ spec }}</span
+                      >
                     </div>
                   </div>
                 </div>

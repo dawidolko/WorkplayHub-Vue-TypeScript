@@ -1,7 +1,7 @@
 import bannerImage from "/icons/KIIIBS-banner.png";
-import keyboardsImage from "/display/cow-front-new.webp";
-import keycapsImage from "/display/keycaps.webp";
-import deskmatsImage from "/products/deskmats/deskmat-kraken.webp";
+import keyboardsImage from "/products/workspace/station1.webp";
+import keycapsImage from "/products/peripherals/keyboard1.jpg";
+import deskmatsImage from "/products/monitors/screen1.webp";
 import { meta, metaContainer } from "./meta-types.ts";
 
 export const landingPageMeta: meta = {
