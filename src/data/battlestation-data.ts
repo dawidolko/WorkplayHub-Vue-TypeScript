@@ -1,4 +1,4 @@
-import { Component, BattlestationData } from "./component-types";
+import { BattlestationData } from "./component-types";
 
 export const battlestationData: BattlestationData = {
   pc: [
