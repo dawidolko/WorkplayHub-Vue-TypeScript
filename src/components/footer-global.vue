@@ -22,7 +22,7 @@ import instagramIcon from "/icons/instagram.svg";
         <router-link
           to="/"
           class="mb-8 cursor-pointer text-4xl font-bold text-white subpixel-antialiased transition duration-300 hover:scale-110 hover:text-k-main md:mb-0 md:text-3xl">
-          WorkplayHub
+          BattleStation
         </router-link>
         <nav
           class="flex flex-col items-center justify-between gap-6 md:flex-row md:items-start md:gap-10">
@@ -33,18 +33,18 @@ import instagramIcon from "/icons/instagram.svg";
           </router-link>
           <router-link
             class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
-            to="/keyboards"
-            >Keyboards
+            to="/setup"
+            >Setup
           </router-link>
           <router-link
             class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
-            to="/keycaps"
-            >Keycaps
+            to="/components"
+            >Components
           </router-link>
           <router-link
             class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
-            to="/deskmats"
-            >Deskmats
+            to="/specs"
+            >Specs
           </router-link>
         </nav>
       </div>
@@ -53,10 +53,10 @@ import instagramIcon from "/icons/instagram.svg";
         class="flex flex-col items-center justify-between md:flex-row md:items-start">
         <p
           class="mb-10 text-center tracking-wide opacity-70 md:mb-0 md:w-2/3 md:text-left">
-          WorkplayHub is an all in one stop to fulfill your mechanical keyboard
-          needs. We're a small team of coding lovers and typing specialists who
-          are devoted to helping you get the most out of you setup. Come and
-          visit our demo facility - we're open 7 days a week.
+          Witaj w mojej prezentacji stanowiska pracy i gier! To kompleksowy
+          przegląd mojego setupu gaming/productivity z komponentami najwyższej
+          jakości. Od potężnego PC z RTX 3060Ti po profesjonalny setup audio -
+          każdy detal został starannie dobrany.
         </p>
         <nav class="flex flex-row gap-4 md:self-end">
           <a class="transition duration-300 hover:-translate-y-0.5" href="">
@@ -64,27 +64,27 @@ import instagramIcon from "/icons/instagram.svg";
               loading="lazy"
               class="aspect-square h-6"
               :src="facebookIcon"
-              alt="" />
+              alt="Facebook" />
           </a>
           <a class="transition duration-300 hover:-translate-y-0.5" href="">
             <img
               loading="lazy"
               class="aspect-square h-6"
               :src="twitterIcon"
-              alt="" />
+              alt="Twitter" />
           </a>
           <a class="transition duration-300 hover:-translate-y-0.5" href="">
             <img
               loading="lazy"
               class="aspect-square h-6"
               :src="instagramIcon"
-              alt="" />
+              alt="Instagram" />
           </a>
         </nav>
       </div>
       <p
         class="mt-16 text-center text-sm font-semibold tracking-wide text-white opacity-60 md:text-start">
-        Copyright 2023. All Rights Reserved
+        Copyright 2024. My BattleStation Showcase.
       </p>
     </div>
   </footer>
