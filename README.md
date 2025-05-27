@@ -119,7 +119,6 @@ In future iterations of this project, I plan to:
 - Implement user authentication to allow visitors to save their preferred setups
 - Create a comparison feature for different workspace configurations
 - Add a budget calculator for people wanting to build a similar setup
-- Implement WebGL-powered effects for more dynamic visual presentations
 - Add internationalization support for multiple languages
 - Create a PWA version for offline access
 - Integrate with peripherals APIs for real-time hardware status (when available)
